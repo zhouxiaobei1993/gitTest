@@ -1,0 +1,27 @@
+.news_header{
+	height: 500px;
+}
+.news_title_relative{
+	position: relative;
+}
+.news_header_title{
+	position: absolute;
+	top:90%;
+	color:white;
+}
+.news_header_footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+p{
+	text-align: left;
+}
+.news_content{
+	padding:0px 50px 0px 50px;
+}
+.news_content h3{
+	text-align: left;
+}
+.news_h3{
+    text-align: left;
+}
