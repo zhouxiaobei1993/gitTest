@@ -1,0 +1,103 @@
+body{
+  background: #f1f1f1;
+  font:14px "微软雅黑", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding:0;
+}
+article{
+  width: 1100px;
+  background: rgba(255,255,255,0.5);
+  padding:50px 10px;
+  margin: auto;
+}
+.myContainer{
+	background: #fff;
+}
+.title{
+	padding:30px 0 10px 0;
+    font-size: 18px;
+    border-bottom: 1px #dedede solid;
+    overflow: hidden;
+    color: #333;
+    font-weight: bold;
+    text-shadow: #fff 1px 1px 2px;
+}
+article .title span{
+	float: right;
+	font-weight: normal;
+    font-size: 16px;
+}
+.myContainer h2{
+	border-left: 5px #333 solid;
+	padding:10px 10px 10px 30px;
+	font-size: 16px;
+	font-weight:bold;
+}
+.recommend{
+    background: #fff;
+    vertical-align: middle;
+}
+.recommend ul{
+	list-style: none;
+	overflow: hidden;
+	padding:30px;
+	margin-bottom: 0;
+}
+/*ul.blogsitetj{ 
+	padding: 30px;
+	overflow: hidden; 
+	}*/
+.recommend li { 
+	float: left; 
+	width: 24%; 
+	text-align: center; 
+	line-height: 30px; 
+	background: #075498; 
+	padding: 5px 0; 
+	overflow: hidden; 
+	border: 1px solid #fff; 
+}
+.recommend li a{
+	color: #fff;
+}
+.recommend li a:hover{
+	text-decoration: none;
+}
+.recommend li:nth-child(n) { background: #FE5187 }
+.recommend li:nth-child(2n) { background: #339967 }
+.recommend li:nth-child(3n) { background: #FF8151 }
+.recommend li:nth-child(4n) { background: #3594cb }
+.recommend li:nth-child(5n) { background: #66CC9A }
+.recommend li:nth-child(6n) { background: #079798 }
+.recommend li:hover{
+	background: #d5d5d5;
+}
+.recommendblog{
+	list-style: none;
+	overflow: hidden;
+	padding:30px;
+	margin-bottom: 0;
+}
+.recommendblog li{
+	float: left;
+	width: 20%;
+	line-height: 30px;
+	text-align: center;
+	padding: 5px 0;
+	overflow: hidden; 
+	background: #f3f3f3;
+	border: 1px solid #fff;
+}
+.recommendblog a {
+    text-decoration: none;
+    color: #555;
+}
+footer{
+    background: #333;
+    padding:20px;
+    color: #a5a4a4;
+}
+footer div{
+	color: : #a5a4a4;
+	text-align: center;
+}

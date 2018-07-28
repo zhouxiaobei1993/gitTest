@@ -1,0 +1,46 @@
+ @charset="UTF-8";
+
+ @media only screen and (min-width: 1200px){
+ 	.news_header img{width:100%;height:500px;}
+ }
+ @media screen and (min-width: 960px) and (max-width: 1199px){
+ 	.news_header img{width:50%;height:500px;}
+ }
+ @media screen and (min-width: 768px) and (max-width: 959px){
+ 	.news_header img{width:50%;height:500px;}
+ }
+ @media screen and (min-width: 480px) and (max-width: 767px) {
+ 	.news_header img{width:50%;height:200px;}
+ }
+ /* 小于479px */
+ @media only screen and (max-width: 479px) {
+ header, .mybody, footer { width: 100%; margin: auto; overflow: hidden }
+ nav, .blog, .search { display: none; }
+ .mybody { padding: 20px 0 0 0 }
+ .myContainer{padding:0 0;margin: 0 0;}
+ /*#mnav { display: block; z-index: 99999; background: url(../images/logo.png) no-repeat left 10px top 13px #333; }*/
+ /*.banner { margin: 40px 0 10px 0 }*/
+ .newsblog { width: 100%; }
+ .rxbox{
+ 	padding-left: 0px;
+ }
+ .wx img{
+ 	width: 100%;
+ }
+ ul{width: 100%;}
+ h3.blogtitle { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.bloginfo p, .paihang ul li p { text-align: justify; }
+.blogpic img { height: 100%; width: auto }
+.ab_box, .leftbox, .rightbox { width: 100%;}
+.rxbox{width: 100%;}
+.litle { display: none }
+/*.rightbox { margin-right: 0 }*/
+.navtab { margin-top: 30px; margin-bottom: 0 }
+.navlist li { margin: 0 5px 5px }
+.effect { width: 43% }
+.mbpic { padding: 5px; margin: 0 5px 5px }
+.mbimg { height: 150px; }
+.pagelist { margin: 0 0 15px 0 }
+.link_box { margin-top: 30px }
+.blogsitetj li { width: 100%; display: block }
+}
