@@ -1,0 +1,61 @@
+body{
+  background: #ffffff;
+  font:14px "微软雅黑", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding:0;
+}
+.title{
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #ebebeb;
+	height: 32px;
+	line-height: 32px;
+}
+.title_weather{
+    position: absolute;
+    left: 10px;
+    float: left;
+}
+.title_nav{
+	float: left;
+	position: absolute;
+	right: 36px;
+	height: 32px;
+}
+.title_nav ul{
+	margin: 0px;
+	list-style-type: none;
+	line-height: 32px;
+	height: 32px;
+}
+.title_nav li{
+	float: left;
+	width: 60px;
+	text-align: center;
+	overflow: hidden;
+}
+.main{
+}
+.logo{
+	text-align: center;
+	position: relative;
+	top: 191px;
+}
+.logo img{
+    height: 127px;
+    width: 270px;
+}
+.f{
+	text-align: center;
+}
+#form{
+	width: 641px;
+	text-align: left;
+	margin: 22px auto 0;
+}
+.input_box{
+	border: 1px solid #b6b6b6;
+	width: 539px;
+	display: inline-block;
+	padding: 10px;
+}

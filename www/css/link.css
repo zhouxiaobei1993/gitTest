@@ -117,6 +117,9 @@ article .title span{
     color: #555;
 }
 footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
     background: #333;
     padding:20px;
     color: #a5a4a4;
