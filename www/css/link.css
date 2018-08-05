@@ -87,6 +87,30 @@ article .title span{
 	overflow: hidden; 
 	background: #f3f3f3;
 	border: 1px solid #fff;
+	position: relative;
+}
+.recommendlinetop{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #333;
+    transition: 400ms ease all;
+}
+.recommendlinebottom{
+	content: '';
+    position: absolute;
+    bottom: : 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: #333;
+    transition: 400ms ease all;
+}
+.recommendblog li:hover .recommendlinetop,.recommendblog li:hover .recommendlinebottom {
+	width: 100%;
 }
 .recommendblog a {
     text-decoration: none;
