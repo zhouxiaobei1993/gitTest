@@ -1,0 +1,12 @@
+.container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.item{
+	width: 100px;
+	height: 50px;
+	justify-content: flex-start;
+	margin: 10px;
+	background-color: #000;
+}
